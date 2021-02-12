@@ -11,6 +11,12 @@
 		0E8F006C25D5B7860023C003 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006B25D5B7860023C003 /* Extensions.swift */; };
 		0E8F006F25D5B7E60023C003 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006E25D5B7E60023C003 /* Functions.swift */; };
 		0E8F007225D5B8010023C003 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F007125D5B8010023C003 /* Enumerations.swift */; };
+		8CD4391225D6DF2300A272A2 /* iOS_DataStorageConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4391125D6DF2300A272A2 /* iOS_DataStorageConverterApp.swift */; };
+		8CD4391425D6DF2300A272A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4391325D6DF2300A272A2 /* ContentView.swift */; };
+		8CD4391625D6DF2800A272A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD4391525D6DF2800A272A2 /* Assets.xcassets */; };
+		8CD4391925D6DF2800A272A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD4391825D6DF2800A272A2 /* Preview Assets.xcassets */; };
+		8CD4392025D6DF8600A272A2 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F007125D5B8010023C003 /* Enumerations.swift */; };
+		8CD4392325D6DF8B00A272A2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006E25D5B7E60023C003 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +37,23 @@
 		0E8F006B25D5B7860023C003 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0E8F006E25D5B7E60023C003 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		0E8F007125D5B8010023C003 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		8CD4390F25D6DF2300A272A2 /* iOS-DataStorageConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DataStorageConverter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD4391125D6DF2300A272A2 /* iOS_DataStorageConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DataStorageConverterApp.swift; sourceTree = "<group>"; };
+		8CD4391325D6DF2300A272A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CD4391525D6DF2800A272A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD4391825D6DF2800A272A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CD4391A25D6DF2800A272A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E8F005D25D5B5F00023C003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD4390C25D6DF2300A272A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +70,7 @@
 				0E8F006B25D5B7860023C003 /* Extensions.swift */,
 				0E8F006E25D5B7E60023C003 /* Functions.swift */,
 				0E8F006225D5B5F00023C003 /* DataStorageConverter */,
+				8CD4391025D6DF2300A272A2 /* iOS-DataStorageConverter */,
 				0E8F006125D5B5F00023C003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0E8F006025D5B5F00023C003 /* DataStorageConverter */,
+				8CD4390F25D6DF2300A272A2 /* iOS-DataStorageConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +90,26 @@
 				0E8F006325D5B5F00023C003 /* main.swift */,
 			);
 			path = DataStorageConverter;
+			sourceTree = "<group>";
+		};
+		8CD4391025D6DF2300A272A2 /* iOS-DataStorageConverter */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4391125D6DF2300A272A2 /* iOS_DataStorageConverterApp.swift */,
+				8CD4391325D6DF2300A272A2 /* ContentView.swift */,
+				8CD4391525D6DF2800A272A2 /* Assets.xcassets */,
+				8CD4391A25D6DF2800A272A2 /* Info.plist */,
+				8CD4391725D6DF2800A272A2 /* Preview Content */,
+			);
+			path = "iOS-DataStorageConverter";
+			sourceTree = "<group>";
+		};
+		8CD4391725D6DF2800A272A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4391825D6DF2800A272A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +132,23 @@
 			productReference = 0E8F006025D5B5F00023C003 /* DataStorageConverter */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD4390E25D6DF2300A272A2 /* iOS-DataStorageConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD4391D25D6DF2800A272A2 /* Build configuration list for PBXNativeTarget "iOS-DataStorageConverter" */;
+			buildPhases = (
+				8CD4390B25D6DF2300A272A2 /* Sources */,
+				8CD4390C25D6DF2300A272A2 /* Frameworks */,
+				8CD4390D25D6DF2300A272A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-DataStorageConverter";
+			productName = "iOS-DataStorageConverter";
+			productReference = 8CD4390F25D6DF2300A272A2 /* iOS-DataStorageConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +159,9 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					0E8F005F25D5B5F00023C003 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8CD4390E25D6DF2300A272A2 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -119,9 +180,22 @@
 			projectRoot = "";
 			targets = (
 				0E8F005F25D5B5F00023C003 /* DataStorageConverter */,
+				8CD4390E25D6DF2300A272A2 /* iOS-DataStorageConverter */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD4390D25D6DF2300A272A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD4391925D6DF2800A272A2 /* Preview Assets.xcassets in Resources */,
+				8CD4391625D6DF2800A272A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E8F005C25D5B5F00023C003 /* Sources */ = {
@@ -132,6 +206,17 @@
 				0E8F006C25D5B7860023C003 /* Extensions.swift in Sources */,
 				0E8F006F25D5B7E60023C003 /* Functions.swift in Sources */,
 				0E8F007225D5B8010023C003 /* Enumerations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD4390B25D6DF2300A272A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD4391425D6DF2300A272A2 /* ContentView.swift in Sources */,
+				8CD4391225D6DF2300A272A2 /* iOS_DataStorageConverterApp.swift in Sources */,
+				8CD4392025D6DF8600A272A2 /* Enumerations.swift in Sources */,
+				8CD4392325D6DF8B00A272A2 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +360,53 @@
 			};
 			name = Release;
 		};
+		8CD4391B25D6DF2800A272A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-DataStorageConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = 93SKHWY4QD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-DataStorageConverter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.charleysun.iOS-DataStorageConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD4391C25D6DF2800A272A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-DataStorageConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = 93SKHWY4QD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-DataStorageConverter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.charleysun.iOS-DataStorageConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -292,6 +424,15 @@
 			buildConfigurations = (
 				0E8F006825D5B5F00023C003 /* Debug */,
 				0E8F006925D5B5F00023C003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD4391D25D6DF2800A272A2 /* Build configuration list for PBXNativeTarget "iOS-DataStorageConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD4391B25D6DF2800A272A2 /* Debug */,
+				8CD4391C25D6DF2800A272A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
